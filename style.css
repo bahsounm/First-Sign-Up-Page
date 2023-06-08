@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+/* Left hand side */
+.left-half{
+    background-image: url(images/naruto.jpg);
+    background-repeat: no-repeat;
+    background-size: 40vw 100vh;
+    height: 100vh;
+    /* width: 40vw;  */
+    overflow: hidden;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: fit-content;
+    width: max(40vw);
+}
+
+/* Right hand side */
+
+.right-half{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+
+.message{
+    color: white;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 30px;
+    width: 800px;
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    margin: 0;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+form{
+    background-color:#111111 ;
+    box-shadow: 0 10px 20px -2px rgb(22, 22, 22);
+    display: flex;
+    flex-direction: column;
+    width:60vw;
+    gap: 30px;
+    padding: 20px;
+    padding-left: 40px;
+}
+.one{
+    display: flex;
+    gap: 100px;
+}
+
+label{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    width: 400px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+input:valid{
+    background-color: lightgreen;
+}
+
+input:invalid{
+    background-color: lightcoral;
+}
+
+button{
+    font-size: 20px;
+}
+
+.already{
+    color: white;
+    margin: 40px;
+    font-size: 20px;
+}
+
+#log-in{
+    color: green;
+}
+
+
+
+
+
+
+
+

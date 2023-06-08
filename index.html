@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="left-half">
+        <div class="logo">
+            <img src="images/logo.png" alt="" width="600vw" height="300vh">
+        </div>
+    </div>
+
+    <div class="right-half">
+        <div class="message">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams <br>Sign up <em>now</em> to get started. <br> <br> <u>You <em>know</em> you want to</u> <br> <br> <br> Lets do this!</p>
+        </div>
+            <form action="">
+                <div class="one">
+                    <div class="r1">
+                        <div class="c">
+                            <label for="fname">*FIRST NAME</label>
+                            <input type="text" name="first_name" id="fname" required>  
+                        </div>
+                        
+                        <div class="c">
+                            <label for="mail">*EMAIL</label>
+                            <input type="email" name="user_email" id="mail" required>
+                        </div>
+
+                        <div class="c">
+                            <label for="pass">*PASSWORD</label>
+                            <input type="password" name="user_pass" id="pass" required>
+                        </div>
+                    </div>
+
+                    <div class="r2">
+                        <div class="c">
+                            <label for="Lname">*LAST NAME</label>
+                        <input type="text" name="last" id="Lname" required> 
+                        </div>
+                        
+                        <div class="c">
+                            <label for="pnumber">PHONE NUMBER</label>
+                            <input type="tel" name="phone_number" id="pnumber" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" title="Must be in the form ###-###-####">
+                        </div>
+
+                        <div class="c">
+                            <label for="cpass">*CONFIRM PASSWORD</label>
+                            <input type="password" name="user_cpass" id="cpass" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="two">
+                    <button type="submit">Create Account</button>
+                </div>
+            </form>
+        <p class="already">Already have an account? <a href="" id="log-in">Log in</a></p>
+    </div>
+
+
+    
+</body>
+</html>
